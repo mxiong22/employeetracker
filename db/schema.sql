@@ -15,6 +15,7 @@ CREATE table role (
     department_id INT, 
     foreign key (department_id)
     references department (id)
+    ON DELETE SET NULL
 );
 
 CREATE table employee (
@@ -27,5 +28,6 @@ CREATE table employee (
     manager_id INT, 
     foreign key (manager_id)
     references employee(id)
+    ON DELETE SET NULL
 
-)
+);
