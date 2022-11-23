@@ -10,12 +10,12 @@
 This application was created by using javascript, node.js, and MySql
 
 # Features
--Javascript
--Node.js
--Express.js
--MySql
--Insomnia
--Heroku
--MySQL workbench
+- Javascript
+- Node.js
+- Express.js
+- MySql
+- Insomnia
+- Heroku
+- MySQL workbench
 
 
